@@ -38,13 +38,14 @@
   overflow: scroll;
 }
 
-.chat-rooms{
+.room{
   padding: 20px 0 40px;
   text-decoration: none;
 }
 
-.chat-room{
+.room-name{
   color: white;
+  text-decoration: none;
 }
 
 .chat {
