@@ -10,21 +10,7 @@
 </div>
 
 <div class="chat-main">
-  <div class="chat-contents">
-    <div class="chat-name">Tom</div>
-    <div class="chat-date">2024/04/19(Fri) 17:03:22</div>
-  </div>
-  <div class="chat-content">こんちくわ</div>
-  <div class="chat-contents">
-    <div class="chat-name">Take</div>
-    <div class="chat-date">2024/04/19(Fri) 17:03:22</div>
-  </div>
-  <div class="chat-content">こんにちわん</div>
-  <div class="chat-contents">
-    <div class="chat-name">jak</div>
-    <div class="chat-date">2024/04/19(Fri) 17:03:22</div>
-  </div>
-  <div class="chat-content">coco</div>
+  <%= render partial: 'message', collection: @messages %>
 </div>
 
 
