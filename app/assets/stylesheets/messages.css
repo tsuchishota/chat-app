@@ -100,11 +100,18 @@
   margin: 10px 0 10px 10px;
 }
 
-.chat-content{
+.lower-message {
+  margin-top: 10px;
+}
+
+
+.message-content{
   font-size: 14px;
   color: #434A54;
   margin-bottom: 40px;
 }
+
+
 
 .chat-bottom{
   height: 90px;
